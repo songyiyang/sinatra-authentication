@@ -1,4 +1,5 @@
-class MongoidUser 
+class MongoidUser
+  store_in collection: 'ofp', database: "users"
   include Mongoid::Document
   include Mongoid::Timestamps
   field :email
