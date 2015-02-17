@@ -1,6 +1,6 @@
 class MongoidUser
-  store_in collection: 'ofp', database: "users"
   include Mongoid::Document
+  store_in collection: 'ofp', database: "users"
   include Mongoid::Timestamps
   field :email
   field :hashed_password
