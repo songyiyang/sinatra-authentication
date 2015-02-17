@@ -1,3 +1,5 @@
+require 'mongoid'
+
 class MongoidUser
   include Mongoid::Document
   store_in collection: 'ofp', database: "users"

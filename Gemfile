@@ -15,7 +15,7 @@ end
 # gem 'haml'
 #
 # Mongoid
-# gem 'mongoid'
+gem 'mongoid'
 # 
 # MongoMapper
 # gem 'mongo_mapper'
