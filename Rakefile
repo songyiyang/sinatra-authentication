@@ -21,6 +21,7 @@ begin
     gemspec.add_dependency "rufus-tokyo"
     gemspec.add_dependency "sinbook"
     gemspec.add_dependency "rack-flash3"
+    gemspec.add_dependency "mongoid"
   end
   Jeweler::GemcutterTasks.new
 rescue LoadError
